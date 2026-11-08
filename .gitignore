@@ -1,0 +1,20 @@
+# render output and intermediates
+renders/
+renders_backup/
+out/
+tests/
+blend/
+tex/
+*.png
+*.mkv
+*.mp4
+*.wav
+# downloaded audio (see audio/manifest.json for sources)
+audio/raw/
+audio/sfx/
+audio/music/
+# runtime state
+tools/.*
+*.log
+*.jsonl
+__pycache__/

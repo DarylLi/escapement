@@ -1,0 +1,618 @@
+{
+ "fps": 24,
+ "length_frames": 877,
+ "sr": 48000,
+ "music": [
+  {
+   "file": "audio/music/epical_drums_02.wav",
+   "start_frame": 156,
+   "end_frame": 386,
+   "offset_s": 39.13,
+   "gain_db": -0.5,
+   "fade_in_s": 0.0,
+   "fade_out_s": 0.02
+  },
+  {
+   "file": "audio/music/epical_drums_02.wav",
+   "start_frame": 386,
+   "end_frame": 681,
+   "offset_s": 50.71333333333334,
+   "gain_db": -0.5,
+   "fade_in_s": 0.01,
+   "fade_out_s": 0.03
+  },
+  {
+   "file": "audio/music/epical_drums_02.wav",
+   "start_frame": 681,
+   "end_frame": 877,
+   "offset_s": 107.597,
+   "gain_db": -0.5,
+   "fade_in_s": 0.01,
+   "fade_out_s": 0.6
+  }
+ ],
+ "cues": [
+  {
+   "file": "audio/sfx/wind__deep_cinematic_hum.wav",
+   "frame": 0,
+   "gain_db": -17,
+   "fade_in_s": 1.5,
+   "dur_s": 7.0,
+   "fade_out_s": 0.8
+  },
+  {
+   "file": "audio/sfx/boom__suspense_hit_swell.wav",
+   "frame": 2,
+   "gain_db": -13
+  },
+  {
+   "file": "audio/sfx/riser__reverse_impact.wav",
+   "frame": 30,
+   "gain_db": -16,
+   "align": "end",
+   "hp": 200
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 6,
+   "gain_db": -12,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 18,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 30,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 42,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 54,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 66,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 78,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 90,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 102,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 114,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 126,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 138,
+   "gain_db": -15,
+   "pan": -0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_single_closemic.wav",
+   "frame": 150,
+   "gain_db": -15,
+   "pan": 0.3
+  },
+  {
+   "file": "audio/sfx/clock__tick_closemic_96k.wav",
+   "frame": 54,
+   "gain_db": -6,
+   "reverb": 0.35
+  },
+  {
+   "file": "audio/sfx/mech__gear_lock_metallic.wav",
+   "frame": 55,
+   "gain_db": -14
+  },
+  {
+   "file": "audio/sfx/clock__ticktock_closeup.wav",
+   "frame": 62,
+   "gain_db": -14,
+   "dur_s": 0.6,
+   "fade_out_s": 0.1
+  },
+  {
+   "file": "audio/sfx/mech__ratchet_fast.wav",
+   "frame": 76,
+   "gain_db": -16,
+   "dur_s": 1.0,
+   "fade_out_s": 0.2,
+   "pan": -0.4
+  },
+  {
+   "file": "audio/sfx/whoosh__fast_swoosh.wav",
+   "frame": 100,
+   "gain_db": -14,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/mech__gear_turn_scifi.wav",
+   "frame": 108,
+   "gain_db": -15
+  },
+  {
+   "file": "audio/sfx/whoosh__tunnel_reverb_long.wav",
+   "frame": 156,
+   "gain_db": -9,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/riser__trailer_short.wav",
+   "frame": 156,
+   "gain_db": -12,
+   "align": "end"
+  },
+  {
+   "file": "audio/sfx/hit__trailer_whoosh_impact.wav",
+   "frame": 156,
+   "gain_db": -6,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/boom__futuristic_bass_hit.wav",
+   "frame": 156,
+   "gain_db": -8,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/servo__hydraulic_hoist.wav",
+   "frame": 164,
+   "gain_db": -16,
+   "dur_s": 1.4,
+   "fade_out_s": 0.3
+  },
+  {
+   "file": "audio/sfx/metal__slam_factory_hard_hit.wav",
+   "frame": 197,
+   "gain_db": -7.0,
+   "align": "peak",
+   "reverb": 0.25
+  },
+  {
+   "file": "audio/sfx/boom__sub_knock.wav",
+   "frame": 197,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/spark__welder_burst.wav",
+   "frame": 197,
+   "gain_db": -17,
+   "pan": -0.4
+  },
+  {
+   "file": "audio/sfx/metal__slam_door_heavy.wav",
+   "frame": 209,
+   "gain_db": -6.4,
+   "align": "peak",
+   "reverb": 0.25
+  },
+  {
+   "file": "audio/sfx/boom__sub_knock.wav",
+   "frame": 209,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/spark__welder_burst.wav",
+   "frame": 209,
+   "gain_db": -17,
+   "pan": 0.4
+  },
+  {
+   "file": "audio/sfx/metal__slam_door_smash.wav",
+   "frame": 221,
+   "gain_db": -5.8,
+   "align": "peak",
+   "reverb": 0.25
+  },
+  {
+   "file": "audio/sfx/boom__sub_knock.wav",
+   "frame": 221,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/spark__welder_burst.wav",
+   "frame": 221,
+   "gain_db": -17,
+   "pan": -0.4
+  },
+  {
+   "file": "audio/sfx/metal__slam_heavy_reverb.wav",
+   "frame": 233,
+   "gain_db": -5.2,
+   "align": "peak",
+   "reverb": 0.25
+  },
+  {
+   "file": "audio/sfx/boom__sub_knock.wav",
+   "frame": 233,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/spark__welder_burst.wav",
+   "frame": 233,
+   "gain_db": -17,
+   "pan": 0.4
+  },
+  {
+   "file": "audio/sfx/metal__slam_explosion_impact.wav",
+   "frame": 245,
+   "gain_db": -4.6,
+   "align": "peak",
+   "reverb": 0.25
+  },
+  {
+   "file": "audio/sfx/boom__sub_knock.wav",
+   "frame": 245,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/spark__welder_burst.wav",
+   "frame": 245,
+   "gain_db": -17,
+   "pan": -0.4
+  },
+  {
+   "file": "audio/sfx/servo__mech_movements.wav",
+   "frame": 186,
+   "gain_db": -19,
+   "dur_s": 2.8,
+   "fade_out_s": 0.5
+  },
+  {
+   "file": "audio/sfx/spark__welding_short.wav",
+   "frame": 258,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/mech__gear_lock_fast_tap.wav",
+   "frame": 261,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/elec__fluorescent_flicker_on.wav",
+   "frame": 270,
+   "gain_db": -11
+  },
+  {
+   "file": "audio/sfx/elec__powerup_static.wav",
+   "frame": 270,
+   "gain_db": -15
+  },
+  {
+   "file": "audio/sfx/elec__fluorescent_switch_flicker.wav",
+   "frame": 282,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/car__engine_start.wav",
+   "frame": 294,
+   "gain_db": -6
+  },
+  {
+   "file": "audio/sfx/car__supercar_rev.wav",
+   "frame": 306,
+   "gain_db": -7
+  },
+  {
+   "file": "audio/sfx/glitch__disintegration.wav",
+   "frame": 316,
+   "gain_db": -9
+  },
+  {
+   "file": "audio/sfx/glitch__laser_disintegrate.wav",
+   "frame": 322,
+   "gain_db": -11,
+   "pan": 0.2
+  },
+  {
+   "file": "audio/sfx/wind__desert_gust.wav",
+   "frame": 326,
+   "gain_db": -14,
+   "fade_in_s": 0.6
+  },
+  {
+   "file": "audio/sfx/car__v8_acceleration.wav",
+   "frame": 342,
+   "gain_db": -7
+  },
+  {
+   "file": "audio/sfx/whoosh__cinematic_fast.wav",
+   "frame": 356,
+   "gain_db": -7,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/car__highrpm_outside.wav",
+   "frame": 356,
+   "gain_db": -13,
+   "dur_s": 1.25,
+   "fade_out_s": 0.15
+  },
+  {
+   "file": "audio/sfx/wind__sand_desert.wav",
+   "frame": 356,
+   "gain_db": -19,
+   "dur_s": 6.0,
+   "fade_out_s": 1.0
+  },
+  {
+   "file": "audio/sfx/whoosh__fast_air.wav",
+   "frame": 372,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/whoosh__cinematic_fast.wav",
+   "frame": 386,
+   "gain_db": -11,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/car__tire_squeal_long.wav",
+   "frame": 390,
+   "gain_db": -8,
+   "dur_s": 1.4,
+   "fade_out_s": 0.3
+  },
+  {
+   "file": "audio/sfx/car__gravel_skid.wav",
+   "frame": 394,
+   "gain_db": -10
+  },
+  {
+   "file": "audio/sfx/car__v8_rev.wav",
+   "frame": 402,
+   "gain_db": -9
+  },
+  {
+   "file": "audio/sfx/car__passby_loud.wav",
+   "frame": 452,
+   "gain_db": -5,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/whoosh__deep_impact.wav",
+   "frame": 452,
+   "gain_db": -8,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/boom__bass_hit_short.wav",
+   "frame": 452,
+   "gain_db": -10,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/whoosh__wind_swoosh.wav",
+   "frame": 472,
+   "gain_db": -11,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/car__highrpm_outside.wav",
+   "frame": 472,
+   "gain_db": -13,
+   "dur_s": 1.1666666666666667,
+   "fade_out_s": 0.2,
+   "reverb": 0.35
+  },
+  {
+   "file": "audio/sfx/wind__dark_storm_gust.wav",
+   "frame": 478,
+   "gain_db": -15
+  },
+  {
+   "file": "audio/sfx/whoosh__fast_transition.wav",
+   "frame": 416,
+   "gain_db": -12,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/car__v8_revs_amg.wav",
+   "frame": 420,
+   "gain_db": -10
+  },
+  {
+   "file": "audio/sfx/car__dyno_revs_turbo.wav",
+   "frame": 460,
+   "gain_db": -9,
+   "dur_s": 0.9,
+   "fade_out_s": 0.2
+  },
+  {
+   "file": "audio/sfx/car__passby_v8_supercar.wav",
+   "frame": 518,
+   "gain_db": -4,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/car__gravel_skid.wav",
+   "frame": 516,
+   "gain_db": -14
+  },
+  {
+   "file": "audio/sfx/wind__storm_gust.wav",
+   "frame": 530,
+   "gain_db": -9,
+   "fade_in_s": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh__long_sweeping_air.wav",
+   "frame": 556,
+   "gain_db": -8,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/wind__high_altitude.wav",
+   "frame": 544,
+   "gain_db": -15,
+   "fade_in_s": 0.5,
+   "dur_s": 3.5,
+   "fade_out_s": 1.5
+  },
+  {
+   "file": "audio/sfx/choir__angelical_transition.wav",
+   "frame": 526,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/riser__tech_choir.wav",
+   "frame": 556,
+   "gain_db": -12,
+   "align": "end"
+  },
+  {
+   "file": "audio/sfx/boom__braam.wav",
+   "frame": 556,
+   "gain_db": -6,
+   "align": "peak",
+   "reverb": 0.3
+  },
+  {
+   "file": "audio/sfx/bell__tower_toll_long.wav",
+   "frame": 557,
+   "gain_db": -9,
+   "reverb": 0.4
+  },
+  {
+   "file": "audio/sfx/whoosh__mighty_mysterious.wav",
+   "frame": 556,
+   "gain_db": -10,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/choir__huge_echo_swell.wav",
+   "frame": 562,
+   "gain_db": -13
+  },
+  {
+   "file": "audio/sfx/choir__magic_shine.wav",
+   "frame": 604,
+   "gain_db": -15
+  },
+  {
+   "file": "audio/sfx/bell__clock_gong.wav",
+   "frame": 615,
+   "gain_db": -10,
+   "reverb": 0.4
+  },
+  {
+   "file": "audio/sfx/wind__mountain_top.wav",
+   "frame": 615,
+   "gain_db": -19,
+   "dur_s": 2.75,
+   "fade_out_s": 0.5
+  },
+  {
+   "file": "audio/sfx/camera__shutter_hard.wav",
+   "frame": 681,
+   "gain_db": -9,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/whoosh__fast_air_zoom.wav",
+   "frame": 683,
+   "gain_db": -9
+  },
+  {
+   "file": "audio/sfx/clock__pocketwatch_ticking.wav",
+   "frame": 687,
+   "gain_db": -18,
+   "dur_s": 6.166666666666667,
+   "fade_in_s": 1.0,
+   "fade_out_s": 0.2
+  },
+  {
+   "file": "audio/sfx/paper__quick_movement.wav",
+   "frame": 725,
+   "gain_db": -14
+  },
+  {
+   "file": "audio/sfx/whoosh__speeding.wav",
+   "frame": 721,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/pencil__on_table.wav",
+   "frame": 751,
+   "gain_db": -15
+  },
+  {
+   "file": "audio/sfx/whoosh__deep_air.wav",
+   "frame": 799,
+   "gain_db": -12
+  },
+  {
+   "file": "audio/sfx/whoosh__tunnel_reverb_long.wav",
+   "frame": 829,
+   "gain_db": -9,
+   "align": "peak"
+  },
+  {
+   "file": "audio/sfx/riser__synth.wav",
+   "frame": 829,
+   "gain_db": -14,
+   "align": "end"
+  },
+  {
+   "file": "audio/sfx/hit__trailer_epic_impact.wav",
+   "frame": 829,
+   "gain_db": -4,
+   "align": "peak",
+   "reverb": 0.2
+  },
+  {
+   "file": "audio/sfx/clock__tick_closemic_96k.wav",
+   "frame": 869,
+   "gain_db": -8,
+   "reverb": 0.5
+  }
+ ],
+ "master": {
+  "gain_db": 1.5,
+  "ceiling_db": -1.6,
+  "reverb_size_s": 2.4
+ }
+}
